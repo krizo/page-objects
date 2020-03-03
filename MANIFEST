@@ -2,5 +2,6 @@
 CHANGES.rst
 LICENSE
 README.rst
+requirements.txt
 setup.py
 page_objects/__init__.py
