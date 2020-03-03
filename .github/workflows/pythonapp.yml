@@ -9,14 +9,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
+    - name: Set up tox for Python 3.8
       uses: actions/setup-python@v1
       with:
         workdir: 'page-objects'
         python-version: 3.8
         run: |
           python -m pip install --upgrade pip
-    - name: Install tox
-      run: pip install tox
-    - name: Bundle project with tox
-      run: tox
+          pip install tox
+          tox
