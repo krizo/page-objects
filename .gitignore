@@ -21,6 +21,7 @@ docs/api
 # Unit test / coverage reports
 .coverage
 .tox
+.venv
 
 # IDEs 
 .idea
