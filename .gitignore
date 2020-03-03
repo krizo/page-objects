@@ -28,3 +28,4 @@ docs/api
 .pydevproject
 .settings
 TAGS
+.venv/
